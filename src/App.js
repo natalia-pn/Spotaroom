@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import RoomsList from './components/RoomsList';
+import { getRooms } from './services/RoomsRequest';
 
 class App extends Component {
   constructor(props) {
@@ -12,18 +13,14 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.getRooms();
-  }
-
-  getRooms() {
-     fetch ('/api/homecards')
-      .then(response => response.json())
-      .then(data => {console.log(data)
+    getRooms() 
+      .then(data => {
         const homeResults = data.homecards;
 
         this.setState({homecards: homeResults})
       })
   }
+
 
   render() {
 
