@@ -1,24 +1,95 @@
 
 .App__header {
-    height: 150px;
+    height: 70px;
     width: 100vw;
     position: fixed;
     margin-bottom: 50px;
-    background-color: white;
-
+    background-color: $white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
 }
+
 .Company__name {
+    color: $dark-green;
+    font-size: 20px;
+    margin-left: 25px;
 
 }
 .App__menu {
-
+    margin: 50px 25px 0 0;
+    font-size: 8px;
 }
+
+a {
+    color: $black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $light-green;
+  }
 .Company-info {
+    margin-right: 15px;
+    // color: $black;
 
 }
 .Working-info {
-
+    margin-right: 15px;
+    // color: $black;
 }
 .Contact-info {
+    // color: $black;
 
 }
+
+
+
+
+
+// @media all and (min-width:500px) 
+
+
+// .App__header {
+//     height: 120px;
+//     width: 100vw;
+//     position: fixed;
+//     margin-bottom: 50px;
+//     background-color: $white;
+//     font-family: 'Open Sans', sans-serif;
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .Company__name {
+//     color: $dark-green;
+//     font-size: 40px;
+//     margin-left: 35px;
+
+// }
+// .App__menu {
+//     margin: 80px 25px 0 0;
+//     font-size: 20px;
+// }
+
+// a {
+//     color: $black;
+//     text-decoration: none;
+// }
+
+// a:hover {
+//     color: $light-green;
+//   }
+// .Company-info {
+//     margin-right: 15px;
+//     // color: $black;
+
+// }
+// .Working-info {
+//     margin-right: 15px;
+//     // color: $black;
+// }
+// .Contact-info {
+//     // color: $black;
+
+// }
