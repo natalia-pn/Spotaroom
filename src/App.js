@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './styles/App.scss';
 import RoomsList from './components/RoomsList';
 import { getRooms } from './services/RoomsRequest';
 
@@ -37,7 +37,9 @@ class App extends Component {
         </header>
 
         <main className="Main-section">
-          <RoomsList homecards={homecards}/>
+          <div className="Rooms__container">
+            <RoomsList homecards={homecards}/>
+          </div>
         </main>
       </div>
     );
