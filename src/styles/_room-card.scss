@@ -8,14 +8,27 @@
     padding: 20px 0 0 0;
     background-color: $light-grey;
     list-style: none;
-    
+
     @media all and (min-width:768px) {
-        width: 1300px;
-        height: 250px;
+        width: 700px;
+        height: 200px;
         flex-direction: row;
-        align-items: center;
-        padding: 0 0 0 40px;
+        padding: 0 0 0 25px;
         margin-bottom: 30px;
+    }
+    
+    @media all and (min-width:992px) {
+        width: 900px;
+        height: 250px;
+        // flex-direction: row;
+        // align-items: center;
+        // padding: 0 0 0 40px;
+        // margin-bottom: 30px;
+    }
+
+    @media all and (min-width:1200px) {
+        width: 1100px;
+        height: 250px;
     }
 }
 
@@ -25,18 +38,33 @@
     &:hover {
         box-shadow: 10px 10px 35px $black;
     }
-   
+
     @media all and (min-width:768px) {
-        width: 380px;
+        width: 350px;
+        height: 160px;
+    }
+   
+    @media all and (min-width:992px) {
+        width: 360px;
         height: 200px;
     }
 }
 
 .Room-info-action__container {
     @media all and (min-width:768px) {
-        width: 900px;
+        width: 310px;
+        height: 160px;
+        flex-direction: row;
+        padding: 0 0 0 25px;
+        // margin-bottom: 30px;
+    }
+
+    @media all and (min-width:992px) {
+        // width: 900px;
         height: 250px;
-        margin-left: 26px;
+        padding: 0;
+           // margin-bottom: 30px;
+        margin-left: 10px;
     }
 }
 
@@ -45,24 +73,53 @@
     font-size: 13px;
     display: flex;
     flex-direction: column;
-    
+
     @media all and (min-width:768px) {
+        font-size: 16px;
+        width: 310px;
         flex-direction: row;
         justify-content: space-between;
-        padding-top: 60px;
-        width: 850px;
+        padding-top: 20px;
+        margin-bottom: 31px;
+       
+    }
+    
+    @media all and (min-width:992px) {
+        // flex-direction: row;
+        // justify-content: space-between;
+        padding-top: 40px;
+        width: 490px;
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+
+    @media all and (min-width:1200px) {
+        width: 690px;
+    }
+
+    @media all and (min-width:1200px) {
         font-size: 22px;
-        margin-bottom: 70px;
     }
 }
 
 .Room__description {
     height: 45px;
-    
+
     @media all and (min-width:768px) {
         margin: 0;
+        width: 230px;
+    }
+    
+    @media all and (min-width:992px) {
+        margin: 0;
         padding-left: 20px;
-        width: 600px;
+        width: 350px;
+        text-align: auto;
+    }
+
+    @media all and (min-width:1200px) {
+        width: 540px;
+
     }
 }
 
@@ -75,7 +132,7 @@
     padding: 5px 10px;
     border-radius: 10px;
     
-    @media all and (min-width:768px) {
+    @media all and (min-width:992px) {
         margin: 0;
     }
 }
@@ -84,9 +141,19 @@
     width: 280px;
     display: flex;
     justify-content: flex-end;
-    
+
     @media all and (min-width:768px) {
-        width: 850px;
+     width: 310px;
+     height: 20px;
+  
+    }
+    
+    @media all and (min-width:992px) {
+        width: 490px;
+    }
+
+    @media all and (min-width:1200px) {
+        width: 690px;
     }
 }
 
@@ -99,11 +166,17 @@
     border-bottom: solid 2px $dark-orange;
     outline: none; 
     margin-right: 15px;
+
    
-    @media all and (min-width:768px) {
+ 
+    @media all and (min-width: 768px) {
+        font-size: 16px;
+    }
+
+    @media all and (min-width:992px) {
         height:40px;
-        font-size: 20px;
-        width: 200px;
+        font-size: 18px;
+        width: 155px;
     }
 }
 
@@ -115,12 +188,23 @@
     color: $white;
     border-bottom: solid 2px $dark-green;
     outline: none;
-    
-    @media all and (min-width:768px) {
-        font-size: 20px;
-        height:40px;
-        width: 200px;
+
+
+    @media all and (min-width: 768px) {
+        font-size: 16px;
     }
+    
+    @media all and (min-width:992px) {
+        font-size: 18px;
+        height:40px;
+        width: 155px;
+    }
+
+    @media all and (min-width:1200px) {
+        font-size: 20px;
+    }
+
+    
 }
 
 
