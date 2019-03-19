@@ -9,15 +9,21 @@ class RoomCard extends Component {
             <li className="Room-card__container" key={index}>
                 <img className="Room__image" src={image} alt={description}></img>
 
-                <div className="Room__info">
-                <p className="Room__description">{description}</p>
-                <p className="Room__price">{`${price}${currencySymbol}`}</p>
+                <div className="Room-info-action__container">
+                    <div className="Room__info">
+                        <p className="Room__description">{description}</p>
+                        <p className="Room__price">{`${price}${currencySymbol}`}</p>
+                    </div>
+
+                    <div className="Button__container">
+                        <button type="Button" className="Details__button">More Details</button>
+                        <button type="Button" className="Book__button">Book now!</button>
+                    </div>
                 </div>
 
-                <div className="Button__container">
-                    <button type="Button" className="Details__button">More Details</button>
-                    <button type="Button" className="Book__button">Book now!</button>
-                </div>
+               
+
+                
             </li>
         );
     }
