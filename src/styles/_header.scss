@@ -4,21 +4,23 @@
     width: 100vw;
     position: fixed;
     margin-bottom: 50px;
-    background-color: $white;
+    background-color: $dark-grey;
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: space-between;
+    border-bottom: 20px solid $white;
 }
 
 .Company__name {
     color: $dark-green;
     font-size: 20px;
+    font-weight: 700;
     margin-left: 25px;
 
 }
 .App__menu {
-    margin: 50px 25px 0 0;
-    font-size: 8px;
+    margin: 45px 25px 0 0;
+    font-size: 12px;
 }
 
 a {
@@ -28,20 +30,17 @@ a {
 
 a:hover {
     color: $light-green;
+    border: 1px solid $light-green;
+    border-radius: 15px;
+    padding: 3px 5px;
   }
 .Company-info {
     margin-right: 15px;
-    // color: $black;
-
 }
 .Working-info {
     margin-right: 15px;
-    // color: $black;
 }
-.Contact-info {
-    // color: $black;
 
-}
 
 
 

@@ -1,19 +1,17 @@
 
 
 .Rooms__container {
-    background-color: darkcyan;
     height: 100%;
     overflow-y: scroll; 
-     display: flex;
+    display: flex;
     justify-content: center;
+    background-color: $dark-grey;
 }
 
 .Rooms__list {
-    margin-top: 90px;
+    margin-top: 110px;
     padding: 0;
     list-style: none;
-    background-color: purple;
-
 }
 
 
