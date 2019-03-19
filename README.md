@@ -1,6 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `SPOTAROOM`
+## By Natalia Pelegero Navarro
 
-## Available Scripts
+Spotaroom is a new room search functionality. The online app returns a list of 30 “homecards” with detailed info such as images, description, location and price.
+Next release will include other functionalities to get more details, book available rooms and access more information about the company through the navigation menu.
+This project is part of Spotahome’s selection process. It has been created with Create React App and data is retrieved from an API exposed by the Spotahome backend services.
+
+## Do you want to clone or fork this repository?
+
+Follow official React instructions:
 
 In the project directory, you can run:
 
@@ -43,26 +50,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
