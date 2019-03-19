@@ -19,11 +19,19 @@
     font-size: 20px;
     font-weight: 700;
     margin-left: 25px;
+    @media all and (min-width:768px) {
+        font-size: 40px;
+        margin-left: 35px;
+    }
 
 }
 .App__menu {
     margin: 45px 25px 0 0;
     font-size: 8px;
+    @media all and (min-width:768px) {
+        margin: 80px 35px 0 0;
+        font-size: 20px;
+    }
 }
 
 a {
@@ -37,61 +45,18 @@ a:hover {
     border-radius: 15px;
     padding: 3px 5px;
   }
+  
 .Company-info {
     margin-right: 15px;
+    @media all and (min-width:768px) {
+        margin-right: 35px;
+    }
 }
 .Working-info {
     margin-right: 15px;
+    @media all and (min-width:768px) {
+        margin-right: 35px;
+    }
 }
 
 
-
-
-
-
-// @media all and (min-width:500px) 
-
-
-// .App__header {
-//     height: 120px;
-//     width: 100vw;
-//     position: fixed;
-//     margin-bottom: 50px;
-//     background-color: $white;
-//     font-family: 'Open Sans', sans-serif;
-//     display: flex;
-//     justify-content: space-between;
-// }
-
-// .Company__name {
-//     color: $dark-green;
-//     font-size: 40px;
-//     margin-left: 35px;
-
-// }
-// .App__menu {
-//     margin: 80px 25px 0 0;
-//     font-size: 20px;
-// }
-
-// a {
-//     color: $black;
-//     text-decoration: none;
-// }
-
-// a:hover {
-//     color: $light-green;
-//   }
-// .Company-info {
-//     margin-right: 15px;
-//     // color: $black;
-
-// }
-// .Working-info {
-//     margin-right: 15px;
-//     // color: $black;
-// }
-// .Contact-info {
-//     // color: $black;
-
-// }
