@@ -1,8 +1,10 @@
-### `SPOTAROOM`
-## By Natalia Pelegero Navarro
+## SPOTAROOM
+### By Natalia Pelegero Navarro
 
-Spotaroom is a new room search functionality. The online app returns a list of 30 “homecards” with detailed info such as images, description, location and price.
-Next release will include other functionalities to get more details, book available rooms and access more information about the company through the navigation menu.
+Spotaroom is a new room search functionality.<br> The online app returns a list of 30 “homecards” with detailed info such as images, description, location and price.<br>
+
+Next release will include other functionalities to get more details, book available rooms and access more information about the company through the navigation menu.<br>
+
 This project is part of Spotahome’s selection process. It has been created with Create React App and data is retrieved from an API exposed by the Spotahome backend services.
 
 ## Do you want to clone or fork this repository?
