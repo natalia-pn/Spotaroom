@@ -50,19 +50,35 @@ a:hover {
   }
   
 .Company-info {
-    margin-right: 15px;
-    
+    margin-right: 5px;
+}
+
+.Company-info:after {
+    content: "-";
+    margin-left: 5px;
+
     @media all and (min-width:768px) {
-        margin-right: 35px;
+        margin-right: 5px;
+        margin-left: 10px;
     }
 }
 
 .Working-info {
-    margin-right: 15px;
+    margin-right: 5px;
    
     @media all and (min-width:768px) {
-        margin-right: 35px;
+        margin-right: 10px;
     }
+}
+
+.Working-info:after {
+    content: "-";
+    margin-left: 5px;
+    
+    @media all and (min-width:768px) {
+        margin-left: 10px;
+    }
+   
 }
 
 
