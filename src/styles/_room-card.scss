@@ -81,7 +81,7 @@
 }
 
 .Button__container {
-    width: 260px;
+    width: 280px;
     display: flex;
     justify-content: flex-end;
     
@@ -93,6 +93,7 @@
 .Details__button {
     font-size: 13px;
     font-weight: 700;
+    width: 133px;
     background: $orange;
     color: $white;
     border-bottom: solid 2px $dark-orange;
@@ -109,6 +110,7 @@
 .Book__button {
     font-size: 13px;
     font-weight: 700;
+    width: 132px;
     background: $light-green;
     color: $white;
     border-bottom: solid 2px $dark-green;
