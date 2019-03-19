@@ -1,0 +1,40 @@
+.Room-card__container {
+    height: 400px;
+    width: 300px;
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Room__image {
+    width: 280px;
+    height: 150px;
+    &:hover {
+        // box-shadow: 0 0 11px rgba(33,33,33,.2); 
+        box-shadow: 10px 10px 35px $black;
+    }
+}
+
+
+
+
+
+
+.Room__info {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Room__price {
+    align-self: flex-end;
+    background: $black;
+    color: $yellow;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+}
+
