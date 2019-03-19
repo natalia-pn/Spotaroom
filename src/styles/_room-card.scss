@@ -9,8 +9,12 @@
     background-color: $light-grey;
     list-style: none;
     @media all and (min-width:768px) {
-        width: 520px;
-        height: 600px;
+        width: 1300px;
+        height: 350px;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 0 0 40px;
+        background: pink;
     }
 }
 
@@ -21,8 +25,8 @@
         box-shadow: 10px 10px 35px $black;
     }
     @media all and (min-width:768px) {
-        width: 480px;
-        height: 350px;
+        width: 380px;
+        height: 250px;
     }
 }
 
@@ -32,13 +36,19 @@
     display: flex;
     flex-direction: column;
     @media all and (min-width:768px) {
-        width: 460px;
+        flex-direction: row;
+        width: 700px;
         font-size: 20px;
+        align-self: flex-start;
+        margin: 40px;
     }
 }
 
 .Room__description {
     height: 45px;
+    @media all and (min-width:768px) {
+        margin-right: 40px;
+    }
 }
 
 .Room__price {
@@ -54,11 +64,17 @@
 .Button__container {
     width: 260px;
     display: flex;
-    justify-content: flex-end;
+   justify-content: flex-end;
     @media all and (min-width:768px) {
         width: 460px;
+        margin-top: 208px;
+      
+       
     }
 }
+
+
+
 
 .Details__button {
     font-size: 13px;
