@@ -7,6 +7,11 @@
     margin-bottom: 20px;
     padding: 20px 0 0 0;
     background-color: $light-grey;
+    list-style: none;
+    @media all and (min-width:768px) {
+        width: 520px;
+        height: 600px;
+    }
 }
 
 .Room__image {
@@ -15,6 +20,10 @@
     &:hover {
         box-shadow: 10px 10px 35px $black;
     }
+    @media all and (min-width:768px) {
+        width: 480px;
+        height: 350px;
+    }
 }
 
 .Room__info {
@@ -22,6 +31,14 @@
     font-size: 13px;
     display: flex;
     flex-direction: column;
+    @media all and (min-width:768px) {
+        width: 460px;
+        font-size: 20px;
+    }
+}
+
+.Room__description {
+    height: 45px;
 }
 
 .Room__price {
@@ -38,8 +55,9 @@
     width: 260px;
     display: flex;
     justify-content: flex-end;
-    
-
+    @media all and (min-width:768px) {
+        width: 460px;
+    }
 }
 
 .Details__button {
@@ -50,6 +68,9 @@
     border-bottom: solid 2px $dark-orange;
     outline: none; 
     margin-right: 15px;
+    @media all and (min-width:768px) {
+        font-size: 20px;
+    }
 }
 
 
@@ -60,5 +81,11 @@
     color: $white;
     border-bottom: solid 2px $dark-green;
     outline: none;
+    @media all and (min-width:768px) {
+        font-size: 20px;
+    }
 }
+
+
+
 
