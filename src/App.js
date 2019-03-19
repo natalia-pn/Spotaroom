@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './styles/App.scss';
 import RoomsList from './components/RoomsList';
+import Header from './components/Header';
 import { getRooms } from './services/RoomsRequest';
 
 class App extends Component {
@@ -28,12 +29,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App__header">
-          <p className="Company__name">Spotaroom</p>
-          <nav className="App__menu">
-            <a className="Company-info" href="">The company</a>
-            <a className="Working-info" href="">How we work</a>
-            <a className="Contact-info" href="">Contact us</a>
-          </nav>
+         <Header />
         </header>
 
         <main className="Main-section">
