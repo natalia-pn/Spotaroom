@@ -8,6 +8,7 @@
     padding: 20px 0 0 0;
     background-color: $light-grey;
     list-style: none;
+    
     @media all and (min-width:768px) {
         width: 1300px;
         height: 350px;
@@ -24,6 +25,7 @@
     &:hover {
         box-shadow: 10px 10px 35px $black;
     }
+   
     @media all and (min-width:768px) {
         width: 380px;
         height: 250px;
@@ -36,7 +38,6 @@
         height: 350px;
         margin-left: 26px;
     }
-  
 }
 
 .Room__info {
@@ -44,6 +45,7 @@
     font-size: 13px;
     display: flex;
     flex-direction: column;
+    
     @media all and (min-width:768px) {
         flex-direction: row;
         justify-content: space-between;
@@ -56,6 +58,7 @@
 
 .Room__description {
     height: 45px;
+    
     @media all and (min-width:768px) {
         margin: 0;
         padding-left: 20px;
@@ -71,6 +74,7 @@
     margin-bottom: 35px;
     padding: 5px 10px;
     border-radius: 10px;
+    
     @media all and (min-width:768px) {
         margin: 0;
     }
@@ -80,6 +84,7 @@
     width: 260px;
     display: flex;
     justify-content: flex-end;
+    
     @media all and (min-width:768px) {
         width: 850px;
     }
@@ -93,6 +98,7 @@
     border-bottom: solid 2px $dark-orange;
     outline: none; 
     margin-right: 15px;
+   
     @media all and (min-width:768px) {
         height:40px;
         font-size: 20px;
@@ -108,6 +114,7 @@
     color: $white;
     border-bottom: solid 2px $dark-green;
     outline: none;
+    
     @media all and (min-width:768px) {
         font-size: 20px;
         height:40px;

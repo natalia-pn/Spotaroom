@@ -19,11 +19,7 @@ class RoomCard extends Component {
                         <button type="Button" className="Details__button">More Details</button>
                         <button type="Button" className="Book__button">Book now!</button>
                     </div>
-                </div>
-
-               
-
-                
+                </div>  
             </li>
         );
     }

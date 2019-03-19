@@ -14,7 +14,6 @@ class RoomsList extends Component {
                     )}
                 )}
             </ul>
-
         );
     }
 }

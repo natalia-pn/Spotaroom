@@ -22,14 +22,13 @@ class App extends Component {
       })
   }
 
-
   render() {
-
     const { homecards } = this.state;
-    return (
+
+    return(
       <div className="App">
         <header className="App__header">
-         <Header />
+          <Header />
         </header>
 
         <main className="Main-section">
