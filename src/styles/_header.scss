@@ -7,6 +7,7 @@
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 15px solid $white;
     
     @media all and (min-width:768px) {
@@ -20,6 +21,7 @@
     font-size: 20px;
     font-weight: 700;
     margin-left: 25px;
+
     
     @media all and (min-width:768px) {
         font-size: 40px;
@@ -32,7 +34,7 @@
     font-size: 8px;
     
     @media all and (min-width:768px) {
-        margin: 80px 35px 0 0;
+        margin: 65px 35px 0 0;
         font-size: 20px;
     }
 }
@@ -41,25 +43,29 @@ a {
     color: $black;
     text-decoration: none;
 }
-
-a:hover {
-    color: $light-green;
-    border: 1px solid $light-green;
-    border-radius: 15px;
-    padding: 3px 5px;
-  }
   
 .Company-info {
     margin: 0 5px;
+    &:hover {
+        color: $light-green;
+        border: 1px solid $light-green;
+        border-radius: 15px;
+        padding: 3px 5px;
+    }
 
     @media all and (min-width:768px) {
         margin: 0 8px; 
     }
 }
 
-
 .Working-info {
     margin: 0 5px;
+    &:hover {
+        color: $light-green;
+        border: 1px solid $light-green;
+        border-radius: 15px;
+        padding: 3px 5px;
+    }
 
     @media all and (min-width:768px) {
         margin: 0 8px;
@@ -68,6 +74,12 @@ a:hover {
 
 .Contact-info {
     margin: 0 0 0 5px;
+    &:hover {
+        color: $light-green;
+        border: 1px solid $light-green;
+        border-radius: 15px;
+        padding: 3px 5px;
+    }
 
     @media all and (min-width:768px) {
         margin: 0 0 0 8px;

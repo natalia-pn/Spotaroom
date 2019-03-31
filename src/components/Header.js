@@ -4,7 +4,7 @@ class Header extends Component {
     render() {
         return(
             <Fragment>
-                <p className="Company__name">Spotaroom</p>
+                <a className="Company__name" href="">Spotaroom</a>
                 <nav className="App__menu">
                     <a className="Company-info" href="">The company</a><span>-</span>
                     <a className="Working-info" href="">How we work</a><span>-</span>
