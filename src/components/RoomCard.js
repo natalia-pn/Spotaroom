@@ -29,7 +29,6 @@ RoomCard.propTypes = {
     image: PropTypes.string,
     description: PropTypes.string,
     price: PropTypes.number,
-    index: PropTypes.number
 }
 
 export default RoomCard;

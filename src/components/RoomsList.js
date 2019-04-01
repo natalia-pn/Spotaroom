@@ -16,7 +16,7 @@ class RoomsList extends Component {
                         description={card.title} 
                         price={card.pricePerMonth} 
                         currencySymbol={card.currencySymbol} 
-                        index={index}/>
+                        />
                     )}
                 )}
             </ul>
