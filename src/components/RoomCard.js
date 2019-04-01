@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 class RoomCard extends Component {
     render() {
-        const { image, description, price, currencySymbol, index } = this.props;
+        const { image, description, price, currencySymbol } = this.props;
         
         return(
-            <li className="Room-card__container" key={index}>
+            <li className="Room-card__container">
                 <img className="Room__image" src={image} alt={description}></img>
 
                 <div className="Room-info-action__container">
