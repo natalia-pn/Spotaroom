@@ -9,8 +9,12 @@ class App extends Component {
     super(props);
 
     this.state = {
-      homecards: []
+      homecards: [],
+      homePrices: []
     }
+
+    this.handlePriceChange = this.handlePriceChange.bind(this);
+    this.orderDescendingPrice = this.orderDescendingPrice.bind(this);
   }
 
   componentDidMount() {
@@ -22,6 +26,22 @@ class App extends Component {
       })
   }
 
+  handlePriceChange(e) {
+
+    const optionValue = e.currentTarget.value;
+
+    this.orderDescendingPrice();
+  }
+
+  orderDescendingPrice() {
+    const descendingPrices = this.state.homecards.sort(function(a, b){return b.pricePerMonth-a.pricePerMonth});
+   
+    this.setState({homecards: descendingPrices});
+    console.log(descendingPrices)
+  }
+
+
+
   render() {
     const { homecards } = this.state;
 
@@ -29,10 +49,21 @@ class App extends Component {
       <div className="App">
         <header className="App__header">
           <Header />
+
+          <div className="Price-filter__container">
+            <select className="Price-filter" onChange={this.handlePriceChange}>
+                <option className="Price__option" value="Ascending">Ascending</option>
+                <option className="Price__option" value="Descending">Descending</option>
+              </select>
+          </div>
         </header>
 
         <main className="Main-section">
           <div className="Rooms__container">
+
+    
+
+            
             <RoomsList homecards={homecards}/>
           </div>
         </main>
