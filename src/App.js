@@ -15,6 +15,7 @@ class App extends Component {
 
     this.handlePriceChange = this.handlePriceChange.bind(this);
     this.orderDescendingPrice = this.orderDescendingPrice.bind(this);
+    this.orderAscendingPrice = this.orderAscendingPrice.bind(this);
   }
 
   componentDidMount() {
@@ -40,6 +41,12 @@ class App extends Component {
     console.log(descendingPrices)
   }
 
+  orderAscendingPrice() {
+    const descendingPrices = this.state.homecards.sort(function(a, b){return a.pricePerMonth-b.pricePerMonth});
+   
+    this.setState({homecards: descendingPrices});
+    console.log(descendingPrices)
+  }
 
 
   render() {
