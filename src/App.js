@@ -31,7 +31,12 @@ class App extends Component {
 
     const optionValue = e.currentTarget.value;
 
-    this.orderDescendingPrice();
+    if(optionValue === 'Ascending') {
+      return this.orderAscendingPrice();
+
+    } else {
+      return this.orderDescendingPrice();
+    }
   }
 
   orderDescendingPrice() {
