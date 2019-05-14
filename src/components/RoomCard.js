@@ -29,6 +29,7 @@ RoomCard.propTypes = {
     image: PropTypes.string,
     description: PropTypes.string,
     price: PropTypes.number,
+    currencySymbol: PropTypes.string
 }
 
 export default RoomCard;

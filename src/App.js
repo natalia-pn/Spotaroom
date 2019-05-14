@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './styles/App.scss';
+import { getRooms } from './services/RoomsRequest';
 import RoomsList from './components/RoomsList';
 import Header from './components/Header';
-import { getRooms } from './services/RoomsRequest';
 
 class App extends Component {
   constructor(props) {
