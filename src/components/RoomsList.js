@@ -10,7 +10,13 @@ class RoomsList extends Component {
             <ul className="Rooms__list">
                 {homecards.map((card, index)=> {
                     return(
-                        <RoomCard key={index}image={card.photoUrls.homecardHidpi} description={card.title} price={card.pricePerMonth} currencySymbol={card.currencySymbol} index={index}/>
+                        <RoomCard 
+                            key={index}
+                            image={card.photoUrls.homecardHidpi} 
+                            description={card.title} 
+                            price={card.pricePerMonth} 
+                            currencySymbol={card.currencySymbol} 
+                        />
                     )}
                 )}
             </ul>
